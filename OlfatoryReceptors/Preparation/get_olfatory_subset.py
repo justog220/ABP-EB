@@ -10,4 +10,4 @@ df = pd.read_sql_query(consulta, conn)
 print("Olfatorys receptor DataFrame")
 print(df.info())
 
-df.to_csv('OlfatorysReceptor.csv')
+df.to_csv('../data/OlfatorysReceptor.csv')

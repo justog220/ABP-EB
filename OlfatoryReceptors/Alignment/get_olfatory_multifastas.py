@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("OlfatorysReceptor.csv")
+df = pd.read_csv("../data/OlfatorysReceptor.csv")
 
 
 
