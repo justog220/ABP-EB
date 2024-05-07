@@ -1,0 +1,44 @@
+id;type;cell_line;delivery;assay;gprotein;co_transfection;assay_system;tag
+1;GFP;Yeast;liquid;"in vitro";;;"millipore guava easycyte ht flow cytometer";
+2;Luc;HEK;liquid;"in vitro";olf;"gγ13 rtp1s";"glosensor (promega)";il-6-halotag
+3;Luc;HEK;liquid;"in vitro";;rtp1s-pme18s;"dual-glo luciferase assay system";flag
+4;Luc;H3A;liquid;"in vitro";olf;"rtp1 rtp2 reep1";dualglo;rho
+5;Ca2+;HeLa/Olf;liquid;"in vitro";olf;"gtpγs aciii cnga2";flipr;rho
+6;Luc;NxG108CC15;liquid;"in vitro";olf;"gγ13 rtp1s";"glosensor (promega)";rho
+7;Luc;HEK;liquid;"in vitro";olf;rtp1s;"glosensor (promega)";il-6-halotag
+8;Luc;NxG108CC15;liquid;"in vitro";olf;"gγ13 rtp1s";"glosensor (promega)";il-6-halotag
+9;Luc;HEK;liquid;"in vitro";olf;rtp1s;"dual-glo luciferase (promega)";rho
+10;Intensity;Ocy;liquid;"ex vivo";olf;"rtp1s cftr";cftr;rho
+11;Luc;H3A;liquid;"in vitro";olf;rpt1s;"dual-glo luciferase (promega)";rho
+12;Intensity;Ocy;liquid;"ex vivo";olf;"cftr rtp1";"opusexpress 6000a (molecular devices)";rho
+13;Ca2+;HEK;liquid;"in vitro";;hsc70t;"fura-2-am (molecular probes, leipzig, germany)";gfp
+14;Ca2+;HEK;gaz;"in vitro";gα16;;"ca2+-sensitive fluorescent dye fluo-4 acetoxymethyl ester (molecular probes, leiden, the netherlands)";rho
+15;Luc;HEK;liquid;"in vitro";olf;"rtp1s gγ13";glosensor-22f;rho
+16;Ca2+;OSN;liquid;"ex vivo";olf;;;
+17;Luc;H3A;liquid;"in vitro";olf;"rtp1s cre-luciferase prl-sv40";dualglo;rho
+18;Luc;H3A;liquid;"in vitro";olf;"rtp1s rtp2 reep1";"dualglo (promega)";
+19;Luc;H3A;liquid;"in vitro";olf;"rtp1s ric8b";"dual-glo luciferase";rho
+20;Luc;HEK;liquid;"in vitro";olf;"gγ13 rtp1-s";"pglosensor-22f-camp (promega)";rho
+21;Luc;NxG108CC15;liquid;"in vitro";olf;"gγ13 rtp1-s";"pglosensor-22f-camp (promega)";rho
+22;cAMP;HEK;liquid;"in vitro";olf;;"htrf camp dynamic kit (schering)";rho
+23;cAMP;HEK;liquid;"in vitro";olf;;dual-luciferase;rho
+24;Luc;HEK;liquid;"in vitro";olf;;dual-luciferase;rho
+25;Ca2+;HEK;liquid;"in vitro";;;"fura-2 am";myc
+26;Conductance;Ocy;liquid;"ex vivo";;cftr;"turbo tec-03";myc
+27;Ca2+;OSN;liquid;"ex vivo";;;"fura-2 am (molecular probes)";
+28;Ca2+;HEK;liquid;"in vitro";gα15/gα16;galpha15/16;"fura-2 am (molecular probes)";rho
+29;Luc;ScL21;liquid;"in vitro";olf;"rtp1s rtp2 ric8b";"dualglo system (promega)";"rho lucy"
+30;Luc;HEK;liquid;"in vitro";olf;"rtp1s gγ13";glosensor™-22f;il-6-halotag
+31;Ca2+;OSN;liquid;"ex vivo";;;;
+32;Ca2+;HEK;liquid;"in vitro";;;;myc
+33;Ca2+;HEK;liquid;"in vitro";gαq;egfp;"flipr calcium 3 assay kit";myc
+34;Ca2+;HEK;liquid;"in vitro";gαq;;"flipr calcium 3 assay kit";myc
+35;SEAP;HEK;liquid;"in vitro";olf;"ric-8b rtp1-s";"pcre-seap (clontech)";
+36;SEAP;HEK;liquid;"in vitro";olf;"ric-8b rtp1-s";"pcre-seap (clontech)";rho
+37;SEAP;H3A;liquid;"in vitro";olf;"rtp1 rtp2 rtp1s reep";"lipofectamine 2000 (invitrogen)";rho
+38;Luc;HEK;liquid;"in vitro";;hrtp1s/hrtp2;;
+39;Luc;HEK;liquid;"in vitro";olf;"rtp1s cre luc2ppgl4.29 prl-cmv";"dual-glo luciferase";rho
+40;Luc;HEK;liquid;"in vitro";;rtp1s;"dual-glo luciferase assay system (promega)";rho
+41;Luc;HEPG2;liquid;"in vitro";olf;;"dual-glo luciferase";rho
+42;Luc;LNCAP;liquid;"in vitro";olf;;"dual-glo luciferase";rho
+43;Luc;HUH7;liquid;"in vitro";olf;;"dual-glo luciferase";rho
