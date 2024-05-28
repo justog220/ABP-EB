@@ -1,6 +1,7 @@
 import re
 import os
 import csv
+import pandas as pd
 
 def obtener_mejor_pose(file):
     with open(file, 'r') as f:
@@ -25,9 +26,6 @@ def obtener_mejor_pose(file):
                     mejor_pose_data = mode, affinity, dist_lb, dist_ub
         return mejor_pose_data
 
-# Archivo de log de AutoDock Vina
-archivo_log = "Dockings/F1R141/-Citronellal.pdbqt.log"
-
 receptores = []
 
 ruta_resultados = "Dockings/"
@@ -41,6 +39,9 @@ for elemento in os.listdir(ruta_resultados):
 
 
 for receptor in receptores:
+    if not os.path.exists(f"LogsProcesados/{receptor}"):
+        os.makedirs(f"LogsProcesados/{receptor}")
+
     logs = os.listdir(f"{ruta_resultados}{receptor}")
 
     summary = []
@@ -57,11 +58,28 @@ for receptor in receptores:
         else:
             print("No se encontraron datos de la mejor pose en el archivo de log.")
 
-    with open(f'Dockings/{receptor}/summary.csv', 'w', newline='') as csvfile:
+    with open(f'LogsProcesados/{receptor}/summary.csv', 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
 
         csvwriter.writerow(['Ligando', 'Afinidad'])
         csvwriter.writerows(summary)
+
+
+df_ligandos = pd.read_csv("Ligandos/ligandos.csv")
+
+for receptor in receptores:
+    df = pd.read_csv(f"LogsProcesados/{receptor}/summary.csv")
+
+    tipos = []
+
+    for _, row in df.iterrows():
+        name = row["Ligando"]
+        resultado = df_ligandos[df_ligandos['Nombre'] == name]
+        tipos.append(resultado.iloc[0]["Tipo"])
+
+    df["Tipo"] = tipos
+    df.to_csv(f"LogsProcesados/{receptor}/summary.csv")
+
 
 
 

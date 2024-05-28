@@ -1,0 +1,136 @@
+,Ligando,Afinidad,Tipo
+0,z-2-hexenol,-4.416,INSECT ODORS
+1,Benzothiazol,-4.582,SULPHOREOUS
+2,eugenol-M.musculus-,-5.341,Odorants speciﬁc to organisms
+3,Menthone,-4.734,KETONES
+4,hexylacetate,-4.34,INSECT ODORS
+5,Α-terpineol,-5.182,INSECT ODORS
+6,DEET,-5.075,Repellents
+7,2-decanone,-4.602,KETONES
+8,Isobutylacetate,-3.914,INSECT ODORS
+9,2-pentanone,-3.529,INSECT ODORS
+10,1-octen-3-ol,-4.418,INSECT ODORS
+11,2-dodecanone,-4.657,KETONES
+12,Trans-anethol,-5.324,OTHERS
+13,3-octanol,-4.229,ALCOHOLS
+14,Butanal,-3.181,INSECT ODORS
+15,3-nonanone,-4.158,KETONES
+16,methylbutyrate,-3.73,INSECT ODORS
+17,piperonylacetone,-5.435,KETONES
+18,2-sec-butyl-3-methoxypyrazine,-4.061,Repellents
+19,Pyrazine,-3.024,ACIDS
+20,geranylacetate,-5.288,ESTERS
+21,2-methylpyrazine,-3.344,ACIDS
+22,butyricacid,-3.289,ACIDS
+23,4-octanol,-4.269,ALCOHOLS
+24,2-heptanone,-4.012,KETONES
+25,ethylhexanoate,-4.012,ESTERS
+26,methylnonanoate,-4.163,ESTERS
+27,Menthol,-5.532,ALCOHOLS
+28,methyldecanoate,-4.631,ESTERS
+29,isoamylacetate,-3.688,ESTERS
+30,Pentanal,-3.633,INSECT ODORS
+31,methyloctanoate,-4.282,ESTERS
+32,methylheptanoate,-4.261,ESTERS
+33,E-2-hexenylacetate,-4.432,INSECT ODORS
+34,hexanoicacid,-3.992,ACIDS
+35,2-octanol,-4.55,ALCOHOLS
+36,Thymol,-5.43,ALCOHOLS
+37,1-pentanol,-3.718,INSECT ODORS
+38,Limonene,-5.478,OTHERS
+39,Eucalypton,-5.892,Repellents
+40,dimethyldisulﬁde,-1.837,SULPHOREOUS
+41,Acetaldehyde,-2.329,INSECT ODORS
+42,Helional-phenobarbital-,-5.417,ALDEHYDES
+43,decanoicacid,-4.493,ACIDS
+44,butylacetate,-3.966,INSECT ODORS
+45,3-methylbutanol,-3.552,INSECT ODORS
+46,2-nonanone,-4.242,KETONES
+47,Ethyl-vanillin,-4.854,ALDEHYDES
+48,1-hexanol,-3.874,ALCOHOLS
+49,1-heptanol,-4.738,ALCOHOLS
+50,Cinnamaldehyde,-5.419,ALDEHYDES
+51,Heptanal,-4.079,ALDEHYDES
+52,Vanillin,-4.778,ALDEHYDES
+53,1-dodecanol,-5.203,ALCOHOLS
+54,butylanthralite,-4.843,Repellents
+55,ethyloctanoate,-4.367,ESTERS
+56,Nonanal,-4.102,ALDEHYDES
+57,heptanoicacid,-3.898,ACIDS
+58,Citral,-5.168,ALDEHYDES
+59,3-hydroxybutan-2-one,-3.304,KETONES
+60,2-pentanol,-3.828,INSECT ODORS
+61,Cineol,-5.011,OTHERS
+62,Acetophenone,-5.044,KETONES
+63,Allyl-ionoe,-4.964,Repellents
+64,isovalericacid,-3.95,ACIDS
+65,ethylisobutyrate,-3.684,ESTERS
+66,Cyclohexanone,-4.423,KETONES
+67,2-ethyl1-hexanol,-4.3,ALCOHOLS
+68,methylp-tert-butylphenylacetate,-5.195,Repellents
+69,1-nonanol,-4.284,ALCOHOLS
+70,Dodecanal,-4.376,ALDEHYDES
+71,ethylanthralite,-5.622,Repellents
+72,Trans-cinnamicacid,-5.659,ACIDS
+73,Diacetyl-C.elegans-,-3.176,Odorants speciﬁc to organisms
+74,dodecanoicacid,-5.303,ACIDS
+75,ethylnonanoate,-4.487,ESTERS
+76,ethylpropionate,-3.586,INSECT ODORS
+77,-Citronellal,-4.728,ALDEHYDES
+78,Hedione,-5.145,KETONES
+79,octanoicacid,-4.688,ACIDS
+80,ethyl-trans-2-butenoate,-3.899,INSECT ODORS
+81,Picaridin,-5.345,Repellents
+82,Thiazole,-2.577,SULPHOREOUS
+83,Hexanal,-3.448,ALDEHYDES
+84,1-octanol,-3.757,ALCOHOLS
+85,pentylacetate,-3.923,INSECT ODORS
+86,Gvaiacol,-4.943,ALCOHOLS
+87,2-nonanlol,-4.641,ALCOHOLS
+88,Citralva,-5.484,OTHERS
+89,propylacetate,-3.751,INSECT ODORS
+90,6-methyl-5-hepten-2-one,-4.352,KETONES
+91,+Citronellal,-5.2,ALDEHYDES
+92,2-isobutyl-3-methoxypyrazine,-3.998,ACIDS
+93,Linalool,-5.204,INSECT ODORS
+94,Cumarin,-5.757,LACTONES
+95,2-isobutyl3-methoxypyrazine,-4.293,Repellents
+96,nonanoicacid,-4.536,ACIDS
+97,ethyldecanoate,-4.893,ESTERS
+98,Alpha-thujone,-4.818,Repellents
+99,isobutyricacid,-3.653,ACIDS
+100,Anisol,-4.464,OTHERS
+101,ethylchrysanthemate,-5.168,Repellents
+102,butylbutyrate,-4.291,ESTERS
+103,"methylN,N,-dimethylanthranilite",-4.449,Repellents
+104,diethylsuccinate,-4.348,INSECT ODORS
+105,Quinolin,-5.571,OTHERS
+106,Octanal,-3.764,ALDEHYDES
+107,Phenylmethanol,-4.916,ALCOHOLS
+108,Geraniol,-5.073,ALCOHOLS
+109,3-octanone,-4.299,KETONES
+110,ethylheptanoate,-4.245,ESTERS
+111,ethylbutyrate,-4.062,ESTERS
+112,methylsalicylate,-5.147,ESTERS
+113,Decanal,-4.595,ALDEHYDES
+114,Lyral,-5.653,ALDEHYDES
+115,propionicacid,-3.419,ACIDS
+116,3-methyl-2-buten-1-ol,-3.765,INSECT ODORS
+117,Gamma-decalactone,-5.035,LACTONES
+118,1-decanol,-4.09,ALCOHOLS
+119,Para-anisaldehyde,-4.678,ALDEHYDES
+120,Camphor,-4.49,KETONES
+121,Indole,-5.271,OTHERS
+122,ethyl-3-hydroxybutyrate,-4.348,INSECT ODORS
+123,2-octanone,-4.022,KETONES
+124,Beta-thujone,-4.947,Repellents
+125,Γ-hexalactone,-4.265,INSECT ODORS
+126,Benzaldehyde,-4.698,ALDEHYDES
+127,Maltol,-4.291,ALCOHOLS
+128,Undecanal,-4.223,ALDEHYDES
+129,1-butanol,-3.243,INSECT ODORS
+130,Pyridine,-3.867,OTHERS
+131,methylhexanoate,-3.862,ESTERS
+132,Safrol,-6.388,OTHERS
+133,Beta-ionone,-5.214,KETONES
+134,Estragol,-5.199,OTHERS

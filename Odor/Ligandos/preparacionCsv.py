@@ -21,7 +21,7 @@ for line in data.split('\n'):
             name = match.group(1).strip()
             code = match.group(2)
             codes.append(code)
-            results.append((name, code, current_type))
+            results.append((name.replace(" ", "").replace("(", "-").replace(")", "-"), code, current_type))
         else:
             # Si la línea no tiene un código, actualizamos el tipo
             current_type = line.strip()
