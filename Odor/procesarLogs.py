@@ -1,4 +1,6 @@
 import re
+import os
+import csv
 
 def obtener_mejor_pose(file):
     with open(file, 'r') as f:
@@ -26,11 +28,41 @@ def obtener_mejor_pose(file):
 # Archivo de log de AutoDock Vina
 archivo_log = "Dockings/F1R141/-Citronellal.pdbqt.log"
 
-# Obtener los datos de la mejor pose
-mejor_pose = obtener_mejor_pose(archivo_log)
+receptores = []
 
-if mejor_pose:
-    mode, affinity, dist_lb, dist_ub = mejor_pose
-    print(f"Mejor Pose - Mode: {mode}, Afinidad: {affinity}, Distancia LB: {dist_lb}, Distancia UB: {dist_ub}")
-else:
-    print("No se encontraron datos de la mejor pose en el archivo de log.")
+ruta_resultados = "Dockings/"
+
+for elemento in os.listdir(ruta_resultados):
+    ruta_completa = os.path.join(ruta_resultados, elemento)
+
+    # Verificar si es una carpeta
+    if os.path.isdir(ruta_completa):
+        receptores.append(elemento)
+
+
+for receptor in receptores:
+    logs = os.listdir(f"{ruta_resultados}{receptor}")
+
+    summary = []
+
+    for log in logs:
+        mejor_pose = obtener_mejor_pose(f"{ruta_resultados}{receptor}/{log}")
+
+        if mejor_pose:
+            mode, affinity, dist_lb, dist_ub = mejor_pose
+            # print(f"Mejor Pose - Mode: {mode}, Afinidad: {affinity}, Distancia LB: {dist_lb}, Distancia UB: {dist_ub}")
+            if affinity > 0:
+                print(affinity)
+            summary.append((log.removesuffix(".pdbqt.log"), affinity))
+        else:
+            print("No se encontraron datos de la mejor pose en el archivo de log.")
+
+    with open(f'Dockings/{receptor}/summary.csv', 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile)
+
+        csvwriter.writerow(['Ligando', 'Afinidad'])
+
+        csvwriter.writerows(summary)
+
+
+
