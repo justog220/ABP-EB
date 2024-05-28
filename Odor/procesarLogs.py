@@ -61,7 +61,6 @@ for receptor in receptores:
         csvwriter = csv.writer(csvfile)
 
         csvwriter.writerow(['Ligando', 'Afinidad'])
-
         csvwriter.writerows(summary)
 
 
