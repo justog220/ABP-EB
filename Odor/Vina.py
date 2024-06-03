@@ -12,6 +12,9 @@ def main():
 
     if not os.path.exists("out"):
         os.makedirs("out")
+        
+    if not os.path.exists(f"out/{argument}"):
+    	os.makedirs(f"out/{argument}")
 
     try:
         with open(ligfile, 'r') as f:
