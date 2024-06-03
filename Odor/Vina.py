@@ -23,7 +23,7 @@ def main():
     for i in tqdm(range(len(arr_file)), desc="Processing ligands"):
         arr_file[i] = arr_file[i].strip()
         print(arr_file[i])
-        cmd = f"vina --config conf.txt --ligand Ligandos/PDBQT/{arr_file[i]} --out out/{arr_file[i]}_out.pdbqt > Dockings/{argument}/{arr_file[i]}.log"
+        cmd = f"vina --config conf.txt --ligand Ligandos/PDBQT/{arr_file[i]} --out out/{argument}/{arr_file[i]}_out.pdbqt > Dockings/{argument}/{arr_file[i]}.log"
         os.system(cmd)
 
     print("Docking completado.")

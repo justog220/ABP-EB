@@ -2,6 +2,9 @@ import re
 import os
 import csv
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
 
 def obtener_mejor_pose(file):
     with open(file, 'r') as f:
@@ -67,6 +70,12 @@ for receptor in receptores:
 
 df_ligandos = pd.read_csv("Ligandos/ligandos.csv")
 
+# fig, ax = plt.subplots()
+plt.figure(figsize=(10, 20))
+
+sns.set_style('darkgrid')
+
+df_completo = pd.DataFrame()
 for receptor in receptores:
     df = pd.read_csv(f"LogsProcesados/{receptor}/summary.csv")
 
@@ -79,6 +88,55 @@ for receptor in receptores:
 
     df["Tipo"] = tipos
     df.to_csv(f"LogsProcesados/{receptor}/summary.csv")
+    df["Receptor"] = [receptor] * len(tipos)
+
+    df_completo = pd.concat([df_completo, df])
+
+
+ax = sns.boxplot(df_completo, x="Tipo", y="Afinidad", hue="Receptor")
+plt.xticks(rotation='vertical')
+
+def etiquetar_outliers(ax, data, x_col, y_col):
+    # Obtener los offsets en el eje x para los diferentes niveles de 'hue'
+    offsets = {}
+    hue_levels = data['Receptor'].unique()
+    hue_offsets = np.linspace(-0.2, 0.2, len(hue_levels))
+    
+    for hue_level, offset in zip(hue_levels, hue_offsets):
+        offsets[hue_level] = offset
+    # Iterar sobre los tipos y los receptores para obtener los outliers
+    for tipo in data[x_col].unique():
+        for receptor in data['Receptor'].unique():
+            subset = data[(data[x_col] == tipo) & (data['Receptor'] == receptor)]
+            Q1 = subset[y_col].quantile(0.25)
+            Q3 = subset[y_col].quantile(0.75)
+            IQR = Q3 - Q1
+            lower_whisker = Q1 - 1.5 * IQR
+            upper_whisker = Q3 + 1.5 * IQR
+
+            outliers = subset[(subset[y_col] < lower_whisker) | (subset[y_col] > upper_whisker)]
+
+            # Añadir etiquetas a los outliers
+            for _, outlier in outliers.iterrows():
+                ax.text(
+                    x=outlier[x_col],
+                    y=outlier[y_col]-0.1,
+                    # s=f'{outlier[y_col]:.2f}',
+                    s=f'{outlier["Ligando"]}',
+                    ha='center',
+                    va='center',
+                    color='red',
+                    fontsize=8
+                )
+
+
+# Llamar a la función para etiquetar outliers
+etiquetar_outliers(ax, df_completo, 'Tipo', 'Afinidad')
+plt.tight_layout()
+plt.show()
+    
+
+
 
 
 
