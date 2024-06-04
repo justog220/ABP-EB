@@ -5,6 +5,7 @@
 ### Estructura de directorios
 - /Corr: Análisis de correlaciones de parámetros
 - /DB: Base de datos del proyecto
+- /Docking: Desarrollo de scripts para AutoDocking de receptores olfatorios y ligandos.
 - /Exploracion: Análisis exploratorio de la base de datos
 	- /PFAM: Análisis de familias de proteínas presentes en la base de datos.
 - /imgs: Imágenes utilizadas en READMES

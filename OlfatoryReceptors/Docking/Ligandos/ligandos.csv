@@ -1,0 +1,140 @@
+Nombre,Código,Tipo
+1-hexanol,8103,ALCOHOLS
+2-ethyl1-hexanol,7720,ALCOHOLS
+1-heptanol,8192,ALCOHOLS
+1-octanol,957,ALCOHOLS
+2-octanol,20083,ALCOHOLS
+3-octanol,11527,ALCOHOLS
+4-octanol,11515,ALCOHOLS
+1-nonanol,8914,ALCOHOLS
+2-nonanlol,12367,ALCOHOLS
+1-decanol,8174,ALCOHOLS
+1-dodecanol,8193,ALCOHOLS
+Geraniol,637566,ALCOHOLS
+Phenylmethanol,244,ALCOHOLS
+Menthol,16666,ALCOHOLS
+Thymol,6989,ALCOHOLS
+Gvaiacol,460,ALCOHOLS
+Maltol,8369,ALCOHOLS
+propionicacid,1032,ACIDS
+isobutyricacid,6590,ACIDS
+butyricacid,264,ACIDS
+hexanoicacid,8892,ACIDS
+heptanoicacid,8094,ACIDS
+octanoicacid,379,ACIDS
+nonanoicacid,8158,ACIDS
+decanoicacid,2969,ACIDS
+dodecanoicacid,3893,ACIDS
+isovalericacid,10430,ACIDS
+Trans-cinnamicacid,444539,ACIDS
+Pyrazine,9261,ACIDS
+2-methylpyrazine,7976,ACIDS
+2-isobutyl-3-methoxypyrazine,32594,ACIDS
+Hexanal,6184,ALDEHYDES
+Heptanal,8130,ALDEHYDES
+Octanal,454,ALDEHYDES
+Nonanal,31289,ALDEHYDES
+Decanal,8175,ALDEHYDES
+Undecanal,8186,ALDEHYDES
+Dodecanal,8194,ALDEHYDES
+Benzaldehyde,240,ALDEHYDES
+Lyral,91604,ALDEHYDES
++Citronellal,75427,ALDEHYDES
+-Citronellal,443157,ALDEHYDES
+Citral,638011,ALDEHYDES
+Cinnamaldehyde,637511,ALDEHYDES
+Helional-phenobarbital-,4763,ALDEHYDES
+Para-anisaldehyde,31244,ALDEHYDES
+Vanillin,1183,ALDEHYDES
+Ethyl-vanillin,8467,ALDEHYDES
+2-heptanone,8051,KETONES
+2-octanone,8093,KETONES
+3-octanone,246728,KETONES
+2-nonanone,13187,KETONES
+3-nonanone,61235,KETONES
+2-decanone,12741,KETONES
+2-dodecanone,22556,KETONES
+3-hydroxybutan-2-one,179,KETONES
+6-methyl-5-hepten-2-one,9862,KETONES
+piperonylacetone,62098,KETONES
+Menthone,26447,KETONES
+Beta-ionone,638014,KETONES
+Cyclohexanone,7967,KETONES
+Acetophenone,7410,KETONES
+Hedione,102861,KETONES
+Camphor,2537,KETONES
+isoamylacetate,31276,ESTERS
+ethylbutyrate,7762,ESTERS
+ethylisobutyrate,7342,ESTERS
+butylbutyrate,7983,ESTERS
+ethylhexanoate,31265,ESTERS
+ethylheptanoate,7797,ESTERS
+ethyloctanoate,7799,ESTERS
+ethylnonanoate,31251,ESTERS
+ethyldecanoate,8048,ESTERS
+methylhexanoate,7824,ESTERS
+methylheptanoate,7826,ESTERS
+methyloctanoate,8091,ESTERS
+methylnonanoate,15606,ESTERS
+methyldecanoate,8050,ESTERS
+methylsalicylate,4133,ESTERS
+geranylacetate,1549026,ESTERS
+dimethyldisulﬁde,12232,SULPHOREOUS
+3-methylthiobutrnoate,409240,SULPHOREOUS
+Thiazole,9256,SULPHOREOUS
+Benzothiazol,7222,SULPHOREOUS
+Cumarin,323,LACTONES
+Gamma-decalactone,12813,LACTONES
+Pyridine,1049,OTHERS
+Quinolin,7047,OTHERS
+Indole,798,OTHERS
+Anisol,7519,OTHERS
+Trans-anethol,637563,OTHERS
+Cineol,10106,OTHERS
+Estragol,8815,OTHERS
+Safrol,5144,OTHERS
+Citralva,1551246,OTHERS
+Limonene,22311,OTHERS
+Γ-hexalactone,12756,INSECT ODORS
+butyricacid,264,INSECT ODORS
+hexanoicacid,8892,INSECT ODORS
+Α-terpineol,17100,INSECT ODORS
+Linalool,6549,INSECT ODORS
+Acetaldehyde,177,INSECT ODORS
+Butanal,261,INSECT ODORS
+Pentanal,8063,INSECT ODORS
+2-pentanone,7895,INSECT ODORS
+1-butanol,263,INSECT ODORS
+1-pentanol,6276,INSECT ODORS
+2-pentanol,22386,INSECT ODORS
+3-methylbutanol,31260,INSECT ODORS
+3-methyl-2-buten-1-ol,11173,INSECT ODORS
+1-octen-3-ol,18827,INSECT ODORS
+z-2-hexenol,5363388,INSECT ODORS
+propylacetate,7997,INSECT ODORS
+butylacetate,31272,INSECT ODORS
+pentylacetate,12348,INSECT ODORS
+hexylacetate,8908,INSECT ODORS
+Isobutylacetate,8038,INSECT ODORS
+E-2-hexenylacetate,5363374,INSECT ODORS
+methylbutyrate,12180,INSECT ODORS
+ethyl-3-hydroxybutyrate,62572,INSECT ODORS
+ethylpropionate,7749,INSECT ODORS
+ethyl-trans-2-butenoate,429065,INSECT ODORS
+diethylsuccinate,31249,INSECT ODORS
+Diacetyl-C.elegans-,650,Odorants speciﬁc to organisms
+eugenol-M.musculus-,3314,Odorants speciﬁc to organisms
+DEET,4284,Repellents
+Picaridin,125098,Repellents
+Eucalypton,10390702,Repellents
+Linalool,6549,Repellents
+Alpha-thujone,261491,Repellents
+Beta-thujone,249286,Repellents
+ethylanthralite,6877,Repellents
+"methylN,N,-dimethylanthranilite",82336,Repellents
+butylanthralite,24433,Repellents
+methylp-tert-butylphenylacetate,605629,Repellents
+ethylchrysanthemate,7334,Repellents
+2-isobutyl3-methoxypyrazine,32594,Repellents
+Allyl-ionoe,5365976,Repellents
+2-sec-butyl-3-methoxypyrazine,520098,Repellents
