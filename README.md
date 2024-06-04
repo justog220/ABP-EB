@@ -27,8 +27,11 @@
 - [Informe](https://docs.google.com/document/d/1W4E4xc-yobJKqFuypAWl4mKD40Bq83cPE_Dq3pm-OxU/edit?usp=sharing)
 
 ### Contacto
-- justo.garcia@ingenieria.uner.edu.ar
-- giovani.giorgio@ingenieria.uner.edu.ar
+- Alumnos a cargo del proyecto
+	- justo.garcia@ingenieria.uner.edu.ar
+	- giovani.giorgio@ingenieria.uner.edu.ar
+- Docente a cargo de la materia
+	- pablo.schierloh@uner.edu.ar
 
 ### Referencias
 - Rocha, J. J., Jayaram, S. A., Stevens, T. J., Muschalik, N., Shah, R. D., Emran, S., Robles, C., Freeman, M., & Munro, S. (2023). Functional unknomics: Systematic screening of conserved genes of unknown function. PLOS Biology, 21(8), e3002222. https://doi.org/10.1371/journal.pbio.3002222
