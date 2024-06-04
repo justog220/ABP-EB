@@ -33,6 +33,12 @@
 - Docente a cargo de la materia
 	- pablo.schierloh@uner.edu.ar
 
+
+### Roadmap
+
+<iframe src="https://roadmap.sh/r/embed?id=665e70cfb998f3b3c785aea3" width="100%" height="500px" frameBorder="0"
+></iframe>
+
 ### Referencias
 - Rocha, J. J., Jayaram, S. A., Stevens, T. J., Muschalik, N., Shah, R. D., Emran, S., Robles, C., Freeman, M., & Munro, S. (2023). Functional unknomics: Systematic screening of conserved genes of unknown function. PLOS Biology, 21(8), e3002222. https://doi.org/10.1371/journal.pbio.3002222
 
