@@ -31,8 +31,10 @@ Para el [TM-Score](https://zhanggroup.org/TM-score/) usamos la herrramienta disp
 ![TM-Score](../../imgs/tmscoreHerrmienta.png)
 
 RMSD:
+
 ![RMSD](../../imgs/rmsd.png)
 
 TM-Score:
+
 ![TM-Score](../../imgs/tmscore.png)
 
