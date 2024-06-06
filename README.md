@@ -63,7 +63,7 @@ Este análisis de los receptores olfatorios no solo proporciona información sob
 [Link a Roadmap con lo trabajado en este ABP](https://roadmap.sh/r/abp-eb)
 
 ### 📬 Contacto
-- Alumnos a cargo del proyecto
+- Estudiantes a cargo del proyecto
 	- justo.garcia@ingenieria.uner.edu.ar
 	- giovani.giorgio@ingenieria.uner.edu.ar
 - Docente a cargo de la materia
