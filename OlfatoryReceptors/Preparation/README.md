@@ -1,17 +1,3 @@
-# Instalacion ete3
-
-Con conda instalado:
-
-```bash
-conda create -n ete3 python=3
-conda activate ete3
-conda install -c etetoolkit ete3 ete_toolchain
-```
-
-```bash
-conda install numpy pyqt lxml six
-```
-
-```bash
-ete3 build check
-```
+# Preparation
+## Metodología
+Con querys de SQL y pandas generamos un script que nos permita almacenar en un csv la información sobre receptores olfatorios contenida en la base de datos. Esto se puede visualizar en [get_olgatory_subset.py](https://github.com/justog220/ABP-EB/blob/main/OlfatoryReceptors/Preparation/get_olfatory_subset.py)
