@@ -8,7 +8,7 @@ Se comenzó explorando la base de datos utilizando tanto Pandas como SQL. Se rea
 Este análisis se puede ver en el archivo [exploracion.ipynb](https://github.com/justog220/ABP-EB/blob/main/Exploracion/exploracion.ipynb).
 
 ### 2. Análisis de PFAM
-Se realizó un análisis específico de los identificadores PFAM presentes en la base de datos. Para esto, se implementaron funciones para realizar scraping en la base de datos de InterPro [[7]](#ref-7) con el fin de obtener los nombres cotidianos asociados a los identificadores PFAM. Posteriormente, se exploró la distribución de familias de proteínas en la base de datos utilizando esta información.
+Se realizó un análisis específico de los identificadores PFAM presentes en la base de datos. Para esto, se implementaron funciones para realizar scraping en la base de datos de InterPro [7] con el fin de obtener los nombres cotidianos asociados a los identificadores PFAM. Posteriormente, se exploró la distribución de familias de proteínas en la base de datos utilizando esta información.
 
 ![Distribución de PFAMs](../imgs/pfam.png)
 
