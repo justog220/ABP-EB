@@ -33,6 +33,9 @@ Decidimos profundizar en el estudio de estos receptores olfatorios y llevamos a 
 - **Reducción de Dimensionalidad**: Aplicamos técnicas de reducción de dimensionalidad para visualizar y comprender mejor la estructura de los receptores olfatorios y las proteínas relacionadas.
 - **Screening de Ligandos**: Realizamos un screening para identificar posibles ligandos que podrían interactuar con los receptores olfatorios, utilizando métodos computacionales.
 
+
+Este análisis de los receptores olfatorios no solo proporciona información sobre su estructura y potenciales interacciones, sino que también sugiere un enfoque para dilucidar la función de proteínas poco conocidas, como las del proyecto Unknome. Estos procesos podrían ser un paso crucial hacia la comprensión de la biología subyacente y la función de estas proteínas poco estudiadas.
+
 ### :file_folder: Estructura de directorios
 - /Corr: Análisis de correlaciones de parámetros
 - /DB: Base de datos del proyecto
@@ -49,7 +52,7 @@ Decidimos profundizar en el estudio de estos receptores olfatorios y llevamos a 
 		- /Estructuras: Estructuras del PDB.
 	- /Treemmer: Módulo utilizado para reducir la dimensionalidad del árbol.
 
-Este análisis de los receptores olfatorios no solo proporciona información sobre su estructura y potenciales interacciones, sino que también sugiere un enfoque para dilucidar la función de proteínas poco conocidas, como las del proyecto Unknome. Estos procesos podrían ser un paso crucial hacia la comprensión de la biología subyacente y la función de estas proteínas poco estudiadas.
+
 
 ### :paperclip: Links de interés
 - [Unknome](https://unknome.mrc-lmb.cam.ac.uk/)
@@ -74,3 +77,5 @@ Este análisis de los receptores olfatorios no solo proporciona información sob
 - Rocha, J. J., Jayaram, S. A., Stevens, T. J., Muschalik, N., Shah, R. D., Emran, S., Robles, C., Freeman, M., & Munro, S. (2023). Functional unknomics: Systematic screening of conserved genes of unknown function. PLOS Biology, 21(8), e3002222. https://doi.org/10.1371/journal.pbio.3002222
 
 - Menardo, F., Loiseau, C., Brites, D., Coscolla, M., Gygli, S. M., Rutaihwa, L. K., Trauner, A., Beisel, C., Borrell, S., & Gagneux, S. (2018). Treemmer: A tool to reduce large phylogenetic datasets with minimal loss of diversity. BMC Bioinformatics, 19(1), 164. https://doi.org/10.1186/s12859-018-2164-8
+
+- Typhaine Paysan-Lafosse, Matthias Blum, Sara Chuguransky, Tiago Grego, Beatriz Lázaro Pinto, Gustavo A Salazar, Maxwell L Bileschi, Peer Bork, Alan Bridge, Lucy Colwell, Julian Gough, Daniel H Haft, Ivica Letunić, Aron Marchler-Bauer, Huaiyu Mi, Darren A Natale, Christine A Orengo, Arun P Pandurangan, Catherine Rivoire, Christian J A Sigrist, Ian Sillitoe, Narmada Thanki, Paul D Thomas, Silvio C E Tosatto, Cathy H Wu, Alex Bateman, InterPro in 2022, Nucleic Acids Research, Volume 51, Issue D1, 6 January 2023, Pages D418–D427, https://doi.org/10.1093/nar/gkac993
