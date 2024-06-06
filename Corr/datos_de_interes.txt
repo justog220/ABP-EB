@@ -1,4 +1,0 @@
-knowness:
-	- subcell_locs
-	- tax_id
-	- pfam_ids: desplegarlo
