@@ -4,10 +4,9 @@
 
 ## Garcia - Giorgio
 
+[Descripción](#descripcion) •
 [Estructura de Directorios](#estructura-de-directorios) •
-[Descripción](#descripcion)
-
-
+[Links de Interés](#links-de-interes) •
 
 
 </div>
@@ -33,12 +32,14 @@
 	- /Treemmer: Módulo utilizado para reducir la dimensionalidad del árbol.
 
 
-
-
 ### Links de interés
 - [Unknome](https://unknome.mrc-lmb.cam.ac.uk/)
 - [Bitácora](https://docs.google.com/document/d/1hfnAr0R3DH2llRegLN6dVXDsyPDdvUwWzP8I5dPmboY/edit?usp=sharing)
 - [Informe](https://docs.google.com/document/d/1W4E4xc-yobJKqFuypAWl4mKD40Bq83cPE_Dq3pm-OxU/edit?usp=sharing)
+
+### Roadmap
+
+[Link a Roadmap con lo trabajado en este ABP](https://roadmap.sh/r/abp-eb)
 
 ### Contacto
 - Alumnos a cargo del proyecto
@@ -48,9 +49,7 @@
 	- pablo.schierloh@uner.edu.ar
 
 
-### Roadmap
 
-[Link a Roadmap con lo trabajado en este ABP](https://roadmap.sh/r/abp-eb)
 
 ### Referencias
 - Rocha, J. J., Jayaram, S. A., Stevens, T. J., Muschalik, N., Shah, R. D., Emran, S., Robles, C., Freeman, M., & Munro, S. (2023). Functional unknomics: Systematic screening of conserved genes of unknown function. PLOS Biology, 21(8), e3002222. https://doi.org/10.1371/journal.pbio.3002222
