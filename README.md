@@ -1,12 +1,20 @@
 <div align="center">
 
-# ABP Estructuras Biomoleculares 
+# ABP Estructuras Biomoleculares
 
+## Garcia - Giorgio
 
 [Estructura de Directorios](#estructura-de-directorios) •
+[Descripción](#descripcion)
+
+
+
+
 </div>
-## Garcia - Giorgio
+
 <img src="imgs/logo_eb.png" width="100"> 
+
+### Descripción
 
 ### Estructura de directorios
 - /Corr: Análisis de correlaciones de parámetros
@@ -24,7 +32,7 @@
 		- /Estructuras: Estructuras del PDB.
 	- /Treemmer: Módulo utilizado para reducir la dimensionalidad del árbol.
 
-### Objetivo
+
 
 
 ### Links de interés
