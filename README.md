@@ -38,15 +38,13 @@ Decidimos profundizar en el estudio de estos receptores olfatorios y llevamos a 
 Este análisis de los receptores olfatorios no solo proporciona información sobre su estructura y potenciales interacciones, sino que también sugiere un enfoque para dilucidar la función de proteínas poco conocidas, como las del proyecto Unknome. Estos procesos podrían ser un paso crucial hacia la comprensión de la biología subyacente y la función de estas proteínas poco estudiadas.
 
 ### :file_folder: Estructura de directorios
-- /Corr: Análisis de correlaciones de parámetros
-- /DB: Base de datos del proyecto
-- /Docking: Desarrollo de scripts para AutoDocking de receptores olfatorios y ligandos.
 - /Exploracion: Análisis exploratorio de la base de datos
 	- /PFAM: Análisis de familias de proteínas presentes en la base de datos.
 - /imgs: Imágenes utilizadas en READMES
 - /OlfatoryReceptors: Carpeta con análisis correspondientes a la familia de receptores olfatorios.
 	- /Alignment: Alineamiento de las secuencias de receptores olfatorios.
 	- /data: Subset de proteínas de receptores olfatorios.
+	- /Docking: Desarrollo de scripts para AutoDocking de receptores olfatorios y ligandos.
 	- /PhyTree: Creación de árbol filogenético.
 	- /Preparation: Obtención de subsets de proteínas de receptores olfatorios.
 	- /ReceptoresFiltrados: Reducción de dimensionalidad del árbol filogenético, con la obtención del subset y descarga de las estructuras PDB correspondientes.
