@@ -10,8 +10,8 @@
 
 <div style="text-align: center;">
     <div style="display: inline-flex; align-items: center;">
-        <img src="imgs/logo_eb.png" alt="Logo EB" style="width: 100px;margin-right: 20px;">
-        <img src="imgs/logouner.png" alt="Logo UNER" style="width: 120px;">
+        <img src="imgs/logo_eb.png" alt="Logo EB" style="height: 50px;margin-right: 20px;">
+        <img src="imgs/logouner.png" alt="Logo UNER" style="height: 50px;">
     </div>
 </div>
 
