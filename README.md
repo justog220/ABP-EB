@@ -4,7 +4,8 @@
 
 ## Garcia - Giorgio
 
-[Descripción](#descripcion) • [Estructura de Directorios](#estructura-de-directorios) • [Links de Interés](#links-de-interes) • [Roadmap](#roadmap) • [Contacto](#contacto) • [Referencias](#referencias)
+
+[Descripción](#-descripción) • [Estructura de Directorios](#file_folder-estructura-de-directorios) • [Links de Interés](#paperclip-links-de-interés) • [Roadmap](#world_map-roadmap) • [Contacto](#-contacto) • [Referencias](#-referencias)
 
 
 
