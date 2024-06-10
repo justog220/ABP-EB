@@ -16,6 +16,8 @@ clustalo -i olfatorys_receptor.multifasta -o olfatorys_alignment.fa --verbose
 
 Esto produjo como resultado el archivo *olfatorys_alignment.fa* con el alineamiento propiamente dicho.
 
+Por ejemplo, a continuación se puede ver una secuencia con su header y los gaps y aminoacidos correspondientes:
+
 ```text
 >tr|Q2PRL8|Q2PRL8_DANRE Olfactory receptor OS=Danio rerio (Zebrafish) (Brachydanio rerio) OX=7955 GN=or104-2 PE=2 SV=1
 ------------------------------------------------------------
