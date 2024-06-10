@@ -68,12 +68,12 @@ python3 autoDock.py
 ![Vina.py](../../imgs/autodockexec.png)
 
 ### 6. Procesamiento y Análisis de Resultados
-Una vez completados los estudios de docking, procesamos los logs para extraer las afinidades de la mejor pose de cada ligando-receptor. Ademas, identificamos y eqtiquetamos los outliers, proporcionando una visión más clara de las interacciones más relevantes y significativas.
+Una vez completados los estudios de docking, procesamos los logs para extraer las afinidades de la mejor pose de cada ligando-receptor. Ademas, identificamos y etiquetamos los outliers, proporcionando una visión más clara de las interacciones más relevantes y significativas.
 
 - *procesarLogs.py:* Analiza los logs generados por la ejecución del script anterior y generación de gráficas de boxplot diferenciando las afinidades por grupo e identificando los outliers.
 
 ## Resultados
-Este estudio nos proporcionó un paso más hacia la dilucidacióin de las posibles funciones de los receptores olfatorios presentes en la base de datos de partida. Además nos permitió consolidar un flujo de trabajo que podría ser aplicable y generalizado con facilidad a nuevos receptores e incluso ligandos. La modularidad de scripts permite que se vayan modificando o utilizando segun las necesidades de los procesos.
+Este estudio nos proporcionó un paso más hacia la dilucidación de las posibles funciones de los receptores olfatorios presentes en la base de datos de partida. Además nos permitió consolidar un flujo de trabajo que podría ser aplicable y generalizado con facilidad a nuevos receptores e incluso ligandos. La modularidad de scripts permite que se vayan modificando o utilizando segun las necesidades de los procesos.
 
 ## Referencias
 [1.][ref-1] Bioinformatics With BB (Director). (2020, julio 30). Molecular Docking  | Autodock VINA Virtual Screening  | VINA Docking tutorial | Bioinformatics. https://www.youtube.com/watch?v=tFFxNTvvoJI
