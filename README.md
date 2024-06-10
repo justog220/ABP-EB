@@ -16,7 +16,6 @@
     </div>
 </div>
 
-
 </div>
 
 
@@ -28,10 +27,11 @@ Partiendo de la base de datos de proteínas poco estudiadas, conocida como Unkno
 
 Decidimos profundizar en el estudio de estos receptores olfatorios y llevamos a cabo una serie de análisis, que incluyeron:
 
-- **BlastP**: Utilizamos BlastP para encontrar proteínas similares a los receptores olfatorios presentes en Unknome.
 - **Alineamiento de Secuencias**: Realizamos alineamientos de secuencias para comparar y analizar la similitud entre los receptores olfatorios identificados.
-- **RMSD y TM-Score**: Calculamos las raíces de las medias de los cuadrados de las diferencias (RMSD) y los TM-Scores para evaluar la superposición estructural entre los receptores olfatorios y las proteínas identificadas mediante BlastP.
+- **Construcción de Árboles Filogenéticos**: Levvamos a cabo la generación de un árbol filogenético a partir del alienamiento del ítem anterior.
 - **Reducción de Dimensionalidad**: Aplicamos técnicas de reducción de dimensionalidad para visualizar y comprender mejor la estructura de los receptores olfatorios y las proteínas relacionadas.
+- **BlastP**: Utilizamos BlastP para encontrar proteínas similares a los receptores olfatorios presentes en Unknome.
+- **RMSD y TM-Score**: Calculamos las raíces de las medias de los cuadrados de las diferencias (RMSD) y los TM-Scores para evaluar la superposición estructural entre los receptores olfatorios y las proteínas identificadas mediante BlastP.
 - **Screening de Ligandos**: Realizamos un screening para identificar posibles ligandos que podrían interactuar con los receptores olfatorios, utilizando métodos computacionales.
 
 
@@ -53,6 +53,17 @@ Este análisis de los receptores olfatorios no solo proporciona información sob
 
 
 
+### :computer: Requisitos
+- Base de Datos Unknome
+- Python
+	- Modulos utilizados especificados en cada carpeta en *requirements.txt*.
+- Clustal Omega
+- Treemmer
+- AutoDock Vina
+- AutoDock Tools
+
+
+
 ### :paperclip: Links de interés
 - [Unknome](https://unknome.mrc-lmb.cam.ac.uk/)
 - [Bitácora](https://docs.google.com/document/d/1hfnAr0R3DH2llRegLN6dVXDsyPDdvUwWzP8I5dPmboY/edit?usp=sharing)
@@ -68,9 +79,6 @@ Este análisis de los receptores olfatorios no solo proporciona información sob
 	- giovani.giorgio@ingenieria.uner.edu.ar
 - Docente a cargo de la materia
 	- pablo.schierloh@uner.edu.ar
-
-
-
 
 ### 📚 Referencias
 

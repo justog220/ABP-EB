@@ -3,7 +3,11 @@
 ## Metodología
 
 ### 1. Exploración de la Base de Datos
-Se comenzó explorando la base de datos utilizando tanto Pandas como SQL. Se realizaron consultas SQL para obtener una visión general de los diferentes atributos presentes en la base de datos y para realizar recuentos de parámetros relevantes, como el grado de conocimiento y las especies presentes.
+Se comenzó explorando la base de datos utilizando tanto Pandas como SQL. En primer lugar se utilizó un gesto de bases de datos que nos permita trabajar con la base de datos sqlite y observar sus diagramas de tablas.
+
+![Diagrama de tablas](../imgs/diagrama%20de%20tablas.png)
+
+En suma, se realizaron consultas SQL para obtener una visión general de los diferentes atributos presentes en la base de datos y para realizar recuentos de parámetros relevantes, como el grado de conocimiento y las especies presentes.
 
 Este análisis se puede ver en el archivo [exploracion.ipynb](https://github.com/justog220/ABP-EB/blob/main/Exploracion/exploracion.ipynb).
 
