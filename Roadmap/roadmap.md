@@ -1,5 +1,7 @@
 ---
 title: ABP Estructuras Biomoléculares
+markmap:
+  colorFreezeLevel: 2
 ---
 
 ## 1. Elección de la temática <!-- markmap: foldAll -->
@@ -95,7 +97,7 @@ title: ABP Estructuras Biomoléculares
 - Obtención de outliers
 
 
-## [ ] 12. Análisis outliers 
+## [ ] 12. Análisis outliers  <!-- markmap: fold -->
 ### Encontrar alguno con uso conocido
 ### Analizar sus poses
 ### Ver si hay drogas similares en [ZINC](https://zinc.docking.org/)

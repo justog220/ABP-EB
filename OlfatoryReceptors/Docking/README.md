@@ -72,6 +72,8 @@ Una vez completados los estudios de docking, procesamos los logs para extraer la
 
 - *procesarLogs.py:* Analiza los logs generados por la ejecución del script anterior y generación de gráficas de boxplot diferenciando las afinidades por grupo e identificando los outliers.
 
+![Afinidades](../../imgs/afinidades.png)
+
 ## Resultados
 Este estudio nos proporcionó un paso más hacia la dilucidación de las posibles funciones de los receptores olfatorios presentes en la base de datos de partida. Además nos permitió consolidar un flujo de trabajo que podría ser aplicable y generalizado con facilidad a nuevos receptores e incluso ligandos. La modularidad de scripts permite que se vayan modificando o utilizando segun las necesidades de los procesos.
 

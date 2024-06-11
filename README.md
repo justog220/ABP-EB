@@ -1,6 +1,7 @@
 <div align="center">
 
 # ABP Estructuras Biomoleculares
+## Integrando Técnicas Bioinformáticas Para el Estudio de Proteínas Desconocidas
 
 ## Garcia - Giorgio
 
@@ -71,7 +72,7 @@ Este análisis de los receptores olfatorios no solo proporciona información sob
 
 ### :world_map: Roadmap
 
-[Link a Roadmap con lo trabajado en este ABP](https://roadmap.sh/r/abp-eb)
+[Link a Roadmap con lo trabajado en este ABP](https://justog220.github.io/ABP-EB/)
 
 ### 📬 Contacto
 - Estudiantes a cargo del proyecto

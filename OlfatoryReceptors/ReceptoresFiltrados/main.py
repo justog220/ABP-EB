@@ -24,7 +24,16 @@ df = pd.concat(dfs)
 
 df.to_csv("cinco_finales_subset.csv")
 
+
 def get_protein_PDB(uniprot_accession):
+    """Obtiene una estructura PDB a partir de la API de AlphaFold
+
+    Args:
+        uniprot_accession (string or int): Identificador de UniProt de la proteína
+
+    Returns:
+        string: Data del PDB
+    """
     api_endpoint = "https://alphafold.ebi.ac.uk/api/prediction/"
     url = f"{api_endpoint}{uniprot_accession}"  # Construct the URL for API
 

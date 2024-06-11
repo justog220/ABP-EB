@@ -3,6 +3,12 @@ import csv
 from tqdm import tqdm
 
 def download_sdf(pubchem_id, filename="compound.sdf"):
+    """Descarga la estructura en formato SDF 3D de un compuesto presente en PubChem
+
+    Args:
+        pubchem_id (int or string): Identificador de PubChem
+        filename (str, optional): Nombre con el que se guarda el archivo. Defaults to "compound.sdf".
+    """
     url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/{pubchem_id}/record/SDF/?record_type=3d"
     response = requests.get(url)
     
